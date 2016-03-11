@@ -29,6 +29,4 @@ app.get('/*', function (req, res) {
   res.json(urlString)
 });
 
-app.listen(8080, function () {
-  console.log('Timestamp app listening on port 8080!');
-});
+app.listen(process.env.PORT || 5000)
