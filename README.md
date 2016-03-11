@@ -4,3 +4,5 @@ A timestamp microservice excercise from Free Code Camp.
 
 Path /* is evaluating the path content and return a UNIX and Natural timestamp
 If the path does not contain any parsable date NULL values are returned.
+
+Deployed on https://fcc-exenza-timestamp.herokuapp.com
